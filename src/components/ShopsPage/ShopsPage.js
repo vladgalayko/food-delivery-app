@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import restaurantData from '../database.json';
+import restaurantData from '../../database.json';
+import './ShopsPage.css';
 
 const ShopsPage = ({ addToCart }) => {
   const [selectedRestaurant, setSelectedRestaurant] = useState(null);
@@ -10,9 +10,13 @@ const ShopsPage = ({ addToCart }) => {
     setSelectedRestaurant(restaurant);
   };
 
+  
   const handleAddToCart = (dish) => {
+    const isDishAlreadyInCart = cartItems.some((item) => item.id === dish.id);
+    if (!isDishAlreadyInCart) {
     addToCart(dish);
     setCartItems((prevItems) => [...prevItems, dish]);
+    }
   };
 
   return (

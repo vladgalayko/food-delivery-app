@@ -2,64 +2,73 @@
   "restaurants": [
     {
       "id": 1,
-      "name": "Restaurant A",
+      "name": "The Pasta House",
       "dishes": [
         {
           "id": 1,
-          "name": "Dish 1A",
-          "price": 10
+          "name": "Pasta Carbonara",
+          "price": 10,
+          "count": 1
         },
         {
           "id": 2,
-          "name": "Dish 2A",
-          "price": 15
+          "name": "Margherita Pizza",
+          "price": 12,
+          "count": 1
         },
         {
           "id": 3,
-          "name": "Dish 3A",
-          "price": 12
+          "name": "Grilled Chicken Salad",
+          "price": 8,
+          "count": 1
         }
       ]
     },
     {
       "id": 2,
-      "name": "Restaurant B",
+      "name": "Sushi Paradise",
       "dishes": [
         {
-          "id": 1,
-          "name": "Dish 1B",
-          "price": 8
+          "id": 4,
+          "name": "Sushi Combo",
+          "price": 18,
+          "count": 1
         },
         {
-          "id": 2,
-          "name": "Dish 2B",
-          "price": 12
+          "id": 5,
+          "name": "Beef Stir-Fry",
+          "price": 14,
+          "count": 1
         },
         {
-          "id": 3,
-          "name": "Dish 3B",
-          "price": 14
+          "id": 6,
+          "name": "Vegetable Fried Rice",
+          "price": 10,
+          "count": 1
         }
       ]
     },
     {
       "id": 3,
-      "name": "Restaurant C",
+      "name": "Burger Joint",
       "dishes": [
         {
-          "id": 1,
-          "name": "Dish 1C",
-          "price": 9
+          "id": 7,
+          "name": "Chicken Parmesan",
+          "price": 16,
+          "count": 1
         },
         {
-          "id": 2,
-          "name": "Dish 2C",
-          "price": 11
+          "id": 8,
+          "name": "Beef Burger",
+          "price": 12,
+          "count": 1
         },
         {
-          "id": 3,
-          "name": "Dish 3C",
-          "price": 13
+          "id": 9,
+          "name": "Caesar Salad",
+          "price": 9,
+          "count": 1
         }
       ]
     }
